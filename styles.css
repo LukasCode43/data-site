@@ -41,7 +41,11 @@ body {
 
 .title {
    
-    margin: 20px 50px;
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 .headline {
