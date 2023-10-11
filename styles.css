@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: #fff;
+    padding: 10px;
+    margin: 30px 50px;
+}
+
+.home {
+    position: absolute;
+    left: 69%;
+}
+
+.logo, .home, .explore {
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+
+.title {
+   
+    margin: 20px 50px;
+}
+
+.headline {
+    color: white;
+    
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.lead {
+    color: lightgray;
+    font-size: 1.2em;
+}
