@@ -2,11 +2,12 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
     background-color: #333;
+    color: #fff;
 }
 
 .container {
@@ -22,35 +23,35 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: pink;
+    /* background-color: pink; */
     color: #fff;
     padding: 10px;
-    margin: 30px 50px;
+    margin: 30px 100px;
 }
 
-.home {
-    position: absolute;
-    left: 69%;
-}
-
-.logo, .home, .explore {
+.logo {
     margin-right: 20px;
     padding: 10px;
-    
+}
+
+.nav {
+    display: flex;
+}
+
+.home, .explore {
+    margin-right: 10px;
+    padding: 10px;
 }
 
 .title {
-   
-    
     margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 70px;
 }
 
 .headline {
     color: white;
-    
     font-weight: 600;
     font-size: 100px;
 }
@@ -58,4 +59,33 @@ body {
 .lead {
     color: lightgray;
     font-size: 1.2em;
+}
+
+.overview {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    font-size: 24px;
+    flex: 1; 
+    
+}
+
+.date {
+    font-size: 16px;
+    text-align: right;
+    color: lightgray;
+   
+}
+
+hr{
+    margin: auto;
+    width: 80%;
+    color: lightgray;
 }
