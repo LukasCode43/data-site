@@ -41,7 +41,9 @@ body {
 .home, .explore {
     margin-right: 10px;
     padding: 10px;
+    color: lightgray;
 }
+
 
 .title {
     margin-top: 50px;
@@ -69,6 +71,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .list {
@@ -81,11 +84,21 @@ body {
     font-size: 16px;
     text-align: right;
     color: lightgray;
+    margin-bottom: 20px;
    
 }
 
 hr{
     margin: auto;
-    width: 80%;
-    color: lightgray;
+    width: 100%;
+    
+}
+
+.overview:hover .list,
+.overview:hover .date,
+.home:hover,
+.explore:hover {
+    color: #e9edc9;
+    font-weight: bold;
+    cursor: pointer;
 }
